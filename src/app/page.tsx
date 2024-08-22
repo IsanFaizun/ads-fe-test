@@ -4,21 +4,21 @@ function Navbar() {
   return (
     <nav className="bg-white border border-gray-300 py-3 shadow-md mx-96 mt-5 rounded-lg sticky top-5 z-50">
         <div className="flex justify-center items-center px-0">
-            <div className="hidden md:flex space-x-8">
+            <div className="flex space-x-8">
                 <div className="py-2 pr-5">
                   <Image 
                     src="/Logo.png" 
                     alt="MyLogo" 
                     width={100} 
                     height={40} 
-                    className="h-7 w-auto"
+                    className="h-7 w-full"
                   />
                 </div>
                 <a href="#" className="text-gray-600 hover:text-gray-800 py-2">Features</a>
                 <a href="#" className="text-gray-600 hover:text-gray-800 py-2">Pricing</a>
                 <a href="#" className="text-gray-600 hover:text-gray-800 py-2">Demo</a>
                 <a href="#" className="text-gray-600 hover:text-gray-800 py-2">Blog</a>
-                <a href="#" className="text-white bg-blue-500 hover:bg-blue-700 font-medium rounded-lg text-sm px-8 flex items-center">
+                <a href="/login" className="text-white bg-blue-500 hover:bg-blue-700 font-medium rounded-lg text-sm px-8 flex items-center">
                   Sign In
                 </a>
             </div>
@@ -148,10 +148,10 @@ function Section5() {
                 <button className="text-blue-500 border border-blue-500 font-medium rounded-lg text-sm px-5 py-3 flex items-center">Komersial dan Penjualan</button>
                 <button className="text-blue-500 border border-blue-500 font-medium rounded-lg text-sm px-5 py-3 flex items-center">Organisasi Sosial</button>
               </div>
-              <p className="text-sm w-3/4">Bidang ini dapat memanfaatkan fitur Broadcast untuk mengirim promosi, pengumuman, dan informasi produk kepada pelanggan dalam jumlah besar secara efisien. Selain itu, fitur Campaign dapat membantu merencanakan dan menyampaikan pesan iklan dengan waktu yang tepat kepada target audiens yang sesuai.</p>
+              <p className="text-sm font-medium w-3/4">Bidang ini dapat memanfaatkan fitur Broadcast untuk mengirim promosi, pengumuman, dan informasi produk kepada pelanggan dalam jumlah besar secara efisien. Selain itu, fitur Campaign dapat membantu merencanakan dan menyampaikan pesan iklan dengan waktu yang tepat kepada target audiens yang sesuai.</p>
             </div>
         </div>
-      </div>
+      </div> 
     </div>
   );
 }
