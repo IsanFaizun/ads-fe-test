@@ -15,7 +15,9 @@ const config: Config = {
       },
       colors: {
         "skyblue": "#ECF2FA",
-        "prim-blue" : "#3366FF"
+        "prim-blue" : "#3366FF",
+        "light-grey": "#E6E8F0",
+        "gold": "#FFB020"
       }
     },
   },
